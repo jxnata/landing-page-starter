@@ -31,7 +31,7 @@ export const Header = () => {
 						<div className='bg-blue-600 rounded-lg p-2 mr-3'>
 							<BarChart3 className='w-6 h-6 text-white' />
 						</div>
-						<h1 className='text-xl font-bold text-gray-900'>FlowSpace Pro</h1>
+						<h1 className='text-xl font-bold text-gray-900'>Your Logo Here</h1>
 					</div>
 
 					{/* Desktop Navigation */}
@@ -53,9 +53,9 @@ export const Header = () => {
 							onClick={() => scrollToSection('#pricing')}
 							className='text-gray-600 hover:text-blue-600 font-medium transition-colors duration-200'
 						>
-							Sign In
+							Login Link
 						</button>
-						<Button size='sm'>Start Free Trial</Button>
+						<Button size='sm'>Primary CTA</Button>
 					</div>
 
 					{/* Mobile menu button */}
@@ -87,11 +87,11 @@ export const Header = () => {
 									onClick={() => scrollToSection('#pricing')}
 									className='block w-full text-left px-3 py-2 text-gray-600 hover:text-blue-600 hover:bg-gray-50 font-medium transition-colors duration-200 rounded-md'
 								>
-									Sign In
+									Login Link
 								</button>
 								<div className='px-3 py-2'>
 									<Button size='sm' className='w-full'>
-										Start Free Trial
+										Primary CTA
 									</Button>
 								</div>
 							</div>

@@ -1,22 +1,22 @@
 export const Testimonials = () => {
 	const testimonials = [
 		{
-			name: 'Sarah Johnson',
-			role: 'Product Manager at TechCorp',
-			image: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-			quote: "FlowSpace Pro transformed how our team collaborates. We've increased our productivity by 40% since switching.",
+			name: 'Customer Name #1',
+			role: 'Job Title at Company',
+			image: 'https://placehold.co/100x100/png',
+			quote: 'Replace this with your first customer testimonial. Make it specific and focus on the results or benefits they experienced.',
 		},
 		{
-			name: 'Michael Chen',
-			role: 'CEO at StartupXYZ',
-			image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-			quote: "The analytics dashboard gives us insights we never had before. It's like having a productivity consultant built-in.",
+			name: 'Customer Name #2',
+			role: 'Job Title at Company',
+			image: 'https://placehold.co/100x100/png',
+			quote: 'Add your second testimonial here. Include specific metrics or outcomes when possible to make it more credible.',
 		},
 		{
-			name: 'Emily Rodriguez',
-			role: 'Team Lead at DesignStudio',
-			image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-			quote: 'Simple, elegant, and powerful. FlowSpace Pro is everything we needed in a project management tool.',
+			name: 'Customer Name #3',
+			role: 'Job Title at Company',
+			image: 'https://placehold.co/100x100/png',
+			quote: 'Your third testimonial should complement the first two. Choose testimonials that address different aspects of your product.',
 		},
 	]
 
@@ -24,10 +24,10 @@ export const Testimonials = () => {
 		<section id='testimonials' className='py-20 px-4 sm:px-6 lg:px-8 bg-white'>
 			<div className='max-w-7xl mx-auto'>
 				<div className='text-center mb-16'>
-					<h2 className='text-3xl sm:text-4xl font-bold text-gray-900 mb-4'>What Our Users Say</h2>
+					<h2 className='text-3xl sm:text-4xl font-bold text-gray-900 mb-4'>Testimonials Section Headline</h2>
 					<p className='text-xl text-gray-600 max-w-2xl mx-auto'>
-						Don't just take our word for it. See what thousands of satisfied customers have to say about
-						FlowSpace Pro.
+						This is your testimonials section description. Introduce the social proof and explain why these
+						testimonials matter.
 					</p>
 				</div>
 
@@ -69,32 +69,32 @@ export const Testimonials = () => {
 							<div className='flex -space-x-2'>
 								<img
 									className='w-10 h-10 rounded-full border-2 border-white object-cover'
-									src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
+									src='https://placehold.co/80x80/png'
 									alt='User'
 								/>
 								<img
 									className='w-10 h-10 rounded-full border-2 border-white object-cover'
-									src='https://images.unsplash.com/photo-1494790108755-2616b612b47c?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
+									src='https://placehold.co/80x80/png'
 									alt='User'
 								/>
 								<img
 									className='w-10 h-10 rounded-full border-2 border-white object-cover'
-									src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
+									src='https://placehold.co/80x80/png'
 									alt='User'
 								/>
 								<img
 									className='w-10 h-10 rounded-full border-2 border-white object-cover'
-									src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80'
+									src='https://placehold.co/80x80/png'
 									alt='User'
 								/>
 								<div className='w-10 h-10 rounded-full border-2 border-white bg-blue-600 flex items-center justify-center'>
-									<span className='text-white text-sm font-semibold'>+12k</span>
+									<span className='text-white text-sm font-semibold'>+Your#</span>
 								</div>
 							</div>
 						</div>
-						<h3 className='text-2xl font-bold text-gray-900 mb-2'>Join 50,000+ Happy Users</h3>
+						<h3 className='text-2xl font-bold text-gray-900 mb-2'>Social Proof Headline</h3>
 						<p className='text-gray-600 mb-6'>
-							Be part of the growing community of professionals who have transformed their productivity.
+							Add a description about your user community. This reinforces trust and shows scale.
 						</p>
 						<div className='flex items-center justify-center space-x-1 text-yellow-400 mb-4'>
 							{[...Array(5)].map((_, i) => (
@@ -104,7 +104,7 @@ export const Testimonials = () => {
 							))}
 						</div>
 						<p className='text-gray-600'>
-							<strong>4.9/5</strong> average rating from 12,000+ reviews
+							<strong>Your Rating</strong> average rating from review sources
 						</p>
 					</div>
 				</div>

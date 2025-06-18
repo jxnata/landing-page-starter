@@ -2,10 +2,10 @@ import { Check } from 'lucide-react'
 
 export const About = () => {
 	const stats = [
-		{ number: '50,000+', label: 'Active Users' },
-		{ number: '99.9%', label: 'Uptime' },
-		{ number: '24/7', label: 'Support' },
-		{ number: '150+', label: 'Countries' },
+		{ number: 'Stat #1', label: 'Metric Label' },
+		{ number: 'Stat #2', label: 'Metric Label' },
+		{ number: 'Stat #3', label: 'Metric Label' },
+		{ number: 'Stat #4', label: 'Metric Label' },
 	]
 
 	return (
@@ -13,10 +13,10 @@ export const About = () => {
 			<div className='max-w-7xl mx-auto'>
 				{/* About Content */}
 				<div className='text-center mb-16'>
-					<h2 className='text-3xl sm:text-4xl font-bold text-gray-900 mb-6'>Trusted by Teams Worldwide</h2>
+					<h2 className='text-3xl sm:text-4xl font-bold text-gray-900 mb-6'>About Section Headline</h2>
 					<p className='text-xl text-gray-600 max-w-3xl mx-auto mb-12'>
-						Since 2020, FlowSpace Pro has been helping teams and individuals achieve more. Our mission is
-						simple: make productivity effortless for everyone.
+						This is your about section description. Tell your story, explain your mission, and build
+						credibility with your audience. Share what makes your company unique.
 					</p>
 				</div>
 
@@ -32,27 +32,27 @@ export const About = () => {
 
 				{/* Trust Indicators */}
 				<div className='bg-white rounded-2xl p-8 sm:p-12'>
-					<h3 className='text-2xl font-bold text-gray-900 text-center mb-8'>Trusted by Leading Companies</h3>
+					<h3 className='text-2xl font-bold text-gray-900 text-center mb-8'>Social Proof Headline</h3>
 					<div className='grid grid-cols-2 md:grid-cols-4 gap-8 items-center opacity-60'>
 						{/* Company logos placeholder */}
 						<div className='text-center'>
 							<div className='bg-gray-200 rounded-lg h-12 flex items-center justify-center mb-2'>
-								<span className='text-gray-500 font-semibold'>TechCorp</span>
+								<span className='text-gray-500 font-semibold'>Logo #1</span>
 							</div>
 						</div>
 						<div className='text-center'>
 							<div className='bg-gray-200 rounded-lg h-12 flex items-center justify-center mb-2'>
-								<span className='text-gray-500 font-semibold'>StartupXYZ</span>
+								<span className='text-gray-500 font-semibold'>Logo #2</span>
 							</div>
 						</div>
 						<div className='text-center'>
 							<div className='bg-gray-200 rounded-lg h-12 flex items-center justify-center mb-2'>
-								<span className='text-gray-500 font-semibold'>DesignStudio</span>
+								<span className='text-gray-500 font-semibold'>Logo #3</span>
 							</div>
 						</div>
 						<div className='text-center'>
 							<div className='bg-gray-200 rounded-lg h-12 flex items-center justify-center mb-2'>
-								<span className='text-gray-500 font-semibold'>Innovation Inc</span>
+								<span className='text-gray-500 font-semibold'>Logo #4</span>
 							</div>
 						</div>
 					</div>
@@ -61,15 +61,15 @@ export const About = () => {
 						<div className='flex items-center justify-center space-x-8 text-sm text-gray-600'>
 							<div className='flex items-center'>
 								<Check className='w-5 h-5 text-green-500 mr-2' />
-								SOC 2 Certified
+								Certification #1
 							</div>
 							<div className='flex items-center'>
 								<Check className='w-5 h-5 text-green-500 mr-2' />
-								GDPR Compliant
+								Certification #2
 							</div>
 							<div className='flex items-center'>
 								<Check className='w-5 h-5 text-green-500 mr-2' />
-								ISO 27001
+								Certification #3
 							</div>
 						</div>
 					</div>

@@ -11,11 +11,11 @@ export const Footer = () => {
 							<div className='bg-blue-600 rounded-lg p-2 mr-3'>
 								<BarChart3 className='w-6 h-6 text-white' />
 							</div>
-							<h3 className='text-2xl font-bold'>FlowSpace Pro</h3>
+							<h3 className='text-2xl font-bold'>Your Company Name</h3>
 						</div>
 						<p className='text-gray-300 mb-6 max-w-md'>
-							Transform your productivity with intelligent task management, team collaboration, and
-							powerful analytics in one seamless platform.
+							This is your company description in the footer. Keep it concise and focused on your main
+							value proposition.
 						</p>
 						<div className='flex space-x-4'>
 							{/* Social Media Icons */}
@@ -48,31 +48,31 @@ export const Footer = () => {
 
 					{/* Product Links */}
 					<div>
-						<h4 className='text-lg font-semibold mb-4'>Product</h4>
+						<h4 className='text-lg font-semibold mb-4'>Product Links</h4>
 						<ul className='space-y-2'>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									Features
+									Link #1
 								</a>
 							</li>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									Pricing
+									Link #2
 								</a>
 							</li>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									Integrations
+									Link #3
 								</a>
 							</li>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									API
+									Link #4
 								</a>
 							</li>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									Security
+									Link #5
 								</a>
 							</li>
 						</ul>
@@ -80,31 +80,31 @@ export const Footer = () => {
 
 					{/* Company Links */}
 					<div>
-						<h4 className='text-lg font-semibold mb-4'>Company</h4>
+						<h4 className='text-lg font-semibold mb-4'>Company Links</h4>
 						<ul className='space-y-2'>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									About
+									Link #1
 								</a>
 							</li>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									Blog
+									Link #2
 								</a>
 							</li>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									Careers
+									Link #3
 								</a>
 							</li>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									Contact
+									Link #4
 								</a>
 							</li>
 							<li>
 								<a href='#' className='text-gray-300 hover:text-white transition-colors duration-200'>
-									Press
+									Link #5
 								</a>
 							</li>
 						</ul>
@@ -115,17 +115,19 @@ export const Footer = () => {
 				<div className='bg-gray-800 rounded-2xl p-8 mb-12'>
 					<div className='text-center md:text-left md:flex md:items-center md:justify-between'>
 						<div className='mb-4 md:mb-0'>
-							<h4 className='text-xl font-semibold mb-2'>Stay Updated</h4>
-							<p className='text-gray-300'>Get the latest product updates and productivity tips.</p>
+							<h4 className='text-xl font-semibold mb-2'>Newsletter Headline</h4>
+							<p className='text-gray-300'>
+								Newsletter description - explain what subscribers will receive.
+							</p>
 						</div>
 						<div className='flex flex-col sm:flex-row gap-3'>
 							<input
 								type='email'
-								placeholder='Enter your email'
+								placeholder='Email placeholder text'
 								className='bg-gray-700 text-white px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-400 flex-1 min-w-0 sm:min-w-64'
 							/>
 							<button className='bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200 whitespace-nowrap'>
-								Subscribe
+								Subscribe CTA
 							</button>
 						</div>
 					</div>
@@ -135,7 +137,7 @@ export const Footer = () => {
 				<div className='border-t border-gray-800 pt-8'>
 					<div className='flex flex-col md:flex-row justify-between items-center'>
 						<div className='flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 mb-4 md:mb-0'>
-							<p className='text-gray-400 text-sm'>© 2024 FlowSpace Pro. All rights reserved.</p>
+							<p className='text-gray-400 text-sm'>© 2024 Your Company Name. All rights reserved.</p>
 							<div className='flex space-x-6 text-sm'>
 								<a href='#' className='text-gray-400 hover:text-white transition-colors duration-200'>
 									Privacy Policy
@@ -151,7 +153,7 @@ export const Footer = () => {
 						<div className='flex items-center space-x-2 text-gray-400 text-sm'>
 							<span>Made with</span>
 							<Heart className='w-4 h-4 text-red-500' />
-							<span>by the FlowSpace team</span>
+							<span>by Your Team Name</span>
 						</div>
 					</div>
 				</div>

@@ -7,32 +7,33 @@ export const Hero = () => {
 			<div className='max-w-7xl mx-auto'>
 				<div className='text-center'>
 					<h1 className='text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6'>
-						Transform Your Productivity with <span className='text-blue-600'>FlowSpace Pro</span>
+						Put your headline here with <span className='text-blue-600'>highlighted text</span>
 					</h1>
 					<p className='text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto'>
-						Stop juggling endless tasks and start achieving your goals. FlowSpace Pro combines intelligent
-						task management, team collaboration, and powerful analytics in one seamless platform.
+						This is your hero description paragraph. It should explain your main value proposition in 1-2
+						sentences. Keep it clear, compelling and focused on the primary benefit you offer to your
+						customers.
 					</p>
 					<div className='flex flex-col sm:flex-row gap-4 justify-center items-center mb-12'>
 						<Button size='lg' className='w-full sm:w-auto'>
-							Start Free Trial
+							Primary CTA Button
 						</Button>
 						<Button variant='outline' size='lg' className='w-full sm:w-auto'>
-							Watch Demo
+							Secondary CTA Button
 						</Button>
 					</div>
 					<div className='flex flex-col sm:flex-row items-center justify-center gap-8 text-sm text-gray-500'>
 						<div className='flex items-center'>
 							<Check className='w-5 h-5 text-green-500 mr-2' />
-							14-day free trial
+							Trust signal #1
 						</div>
 						<div className='flex items-center'>
 							<Check className='w-5 h-5 text-green-500 mr-2' />
-							No credit card required
+							Trust signal #2
 						</div>
 						<div className='flex items-center'>
 							<Check className='w-5 h-5 text-green-500 mr-2' />
-							Cancel anytime
+							Trust signal #3
 						</div>
 					</div>
 				</div>
@@ -45,9 +46,9 @@ export const Hero = () => {
 								<div className='bg-blue-100 rounded-full p-6 mx-auto mb-4 w-20 h-20 flex items-center justify-center'>
 									<BarChart3 className='w-8 h-8 text-blue-600' />
 								</div>
-								<h3 className='text-lg font-semibold text-gray-600 mb-2'>Dashboard Preview</h3>
+								<h3 className='text-lg font-semibold text-gray-600 mb-2'>Hero Visual Placeholder</h3>
 								<p className='text-gray-500'>
-									Beautiful, intuitive interface designed for productivity
+									Replace this area with your main product image, screenshot, or hero visual
 								</p>
 							</div>
 						</div>

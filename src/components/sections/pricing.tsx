@@ -1,56 +1,56 @@
 export const Pricing = () => {
 	const plans = [
 		{
-			name: 'Starter',
-			price: '$9',
+			name: 'Basic Plan',
+			price: '$X',
 			period: '/month',
-			description: 'Perfect for individuals and small teams getting started',
+			description: "Description for your basic plan - who it's for and main benefits",
 			features: [
-				'Up to 5 team members',
-				'10 projects',
-				'Basic task management',
-				'Mobile app access',
-				'Email support',
-				'1GB storage',
+				'Feature description #1',
+				'Feature description #2',
+				'Feature description #3',
+				'Feature description #4',
+				'Feature description #5',
+				'Feature description #6',
 			],
-			cta: 'Start Free Trial',
+			cta: 'CTA Button Text',
 			popular: false,
 		},
 		{
-			name: 'Professional',
-			price: '$29',
+			name: 'Pro Plan',
+			price: '$X',
 			period: '/month',
-			description: 'Ideal for growing teams that need advanced features',
+			description: 'Description for your pro plan - highlight the value and target audience',
 			features: [
-				'Up to 25 team members',
-				'Unlimited projects',
-				'Advanced analytics',
-				'Team collaboration tools',
-				'Priority support',
-				'10GB storage',
-				'Custom workflows',
-				'Time tracking',
+				'All Basic features',
+				'Pro feature #1',
+				'Pro feature #2',
+				'Pro feature #3',
+				'Pro feature #4',
+				'Pro feature #5',
+				'Pro feature #6',
+				'Pro feature #7',
 			],
-			cta: 'Start Free Trial',
+			cta: 'CTA Button Text',
 			popular: true,
 		},
 		{
-			name: 'Enterprise',
-			price: '$99',
+			name: 'Enterprise Plan',
+			price: '$X',
 			period: '/month',
-			description: 'For large organizations with complex needs',
+			description: 'Description for your enterprise plan - focus on scalability and advanced features',
 			features: [
-				'Unlimited team members',
-				'Unlimited projects',
-				'Advanced security',
-				'Custom integrations',
-				'Dedicated support',
-				'Unlimited storage',
-				'Advanced reporting',
-				'SSO & SAML',
-				'API access',
+				'All Pro features',
+				'Enterprise feature #1',
+				'Enterprise feature #2',
+				'Enterprise feature #3',
+				'Enterprise feature #4',
+				'Enterprise feature #5',
+				'Enterprise feature #6',
+				'Enterprise feature #7',
+				'Enterprise feature #8',
 			],
-			cta: 'Contact Sales',
+			cta: 'CTA Button Text',
 			popular: false,
 		},
 	]
@@ -59,9 +59,10 @@ export const Pricing = () => {
 		<section id='pricing' className='py-20 px-4 sm:px-6 lg:px-8 bg-white'>
 			<div className='max-w-7xl mx-auto'>
 				<div className='text-center mb-16'>
-					<h2 className='text-3xl sm:text-4xl font-bold text-gray-900 mb-4'>Simple, Transparent Pricing</h2>
+					<h2 className='text-3xl sm:text-4xl font-bold text-gray-900 mb-4'>Pricing Section Headline</h2>
 					<p className='text-xl text-gray-600 max-w-2xl mx-auto'>
-						Choose the perfect plan for your team. All plans include a 14-day free trial.
+						This is your pricing section description. Explain your pricing philosophy and any special offers
+						or guarantees.
 					</p>
 				</div>
 
@@ -78,7 +79,7 @@ export const Pricing = () => {
 							{plan.popular && (
 								<div className='absolute -top-4 left-1/2 transform -translate-x-1/2'>
 									<span className='bg-yellow-400 text-gray-900 px-4 py-1 rounded-full text-sm font-semibold'>
-										Most Popular
+										Popular Badge
 									</span>
 								</div>
 							)}
@@ -150,7 +151,7 @@ export const Pricing = () => {
 								d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
 							/>
 						</svg>
-						<span className='text-green-800 font-semibold'>30-day money-back guarantee</span>
+						<span className='text-green-800 font-semibold'>Your guarantee or trust signal</span>
 					</div>
 				</div>
 			</div>
