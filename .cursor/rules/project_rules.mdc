@@ -1,0 +1,144 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Sales Landing Page Starter - Project Rules
+
+## Project Overview
+This is a modern, high-converting sales landing page starter template built with React, TypeScript, Vite, and Tailwind CSS. The project serves as a foundation for creating professional sales-focused landing pages with optimized conversion rates.
+
+## Tech Stack
+- **React 19**: Latest React version with modern features
+- **TypeScript**: Full type safety and better development experience
+- **Vite**: Fast build tool and development server
+- **Tailwind CSS v4**: Latest version for utility-first styling
+- **Lucide React**: Icon library for consistent iconography
+
+## Architecture & File Structure
+
+### Component Organization
+```
+src/
+├── components/
+│   ├── button.tsx          # Reusable button component with variants
+│   └── sections/           # Landing page sections
+│       ├── header.tsx      # Navigation header with sticky positioning
+│       ├── hero.tsx        # Main hero section with CTA
+│       ├── features.tsx    # Product/service features grid
+│       ├── about.tsx       # Trust indicators and company stats
+│       ├── testimonials.tsx # Customer testimonials and social proof
+│       ├── pricing.tsx     # Pricing plans and packages
+│       ├── faq.tsx         # Frequently asked questions
+│       └── footer.tsx      # Footer with links and newsletter
+├── pages/
+│   └── home.tsx           # Main landing page composition
+└── main.tsx               # App entry point
+```
+
+## Design Patterns & Standards
+
+### Component Patterns
+1. **Functional Components**: Use arrow functions for all components
+2. **TypeScript**: All components must be fully typed
+3. **Props Interface**: Define interfaces for component props when needed
+4. **Export Pattern**: Use named exports for components
+
+### Styling Guidelines
+1. **Tailwind First**: Use Tailwind utility classes for all styling
+2. **Responsive Design**: Mobile-first approach with responsive breakpoints
+3. **Color Scheme**: Blue-based color palette (blue-50 to blue-900)
+4. **Spacing**: Consistent spacing using Tailwind's spacing scale
+5. **Typography**: Use Tailwind's typography utilities for consistent text styling
+
+### Icon Usage
+- **Lucide React**: Primary icon library for all icons
+- **Consistent Sizing**: Use standard sizes (w-4 h-4, w-5 h-5, w-6 h-6, w-8 h-8)
+- **Semantic Icons**: Choose icons that match their semantic meaning
+- **Color Consistency**: Icons should follow the established color scheme
+
+## Landing Page Structure & Flow
+The landing page follows a proven conversion-optimized structure:
+
+1. **Header**: Sticky navigation with logo, menu, and CTA
+2. **Hero**: Compelling headline, value proposition, and primary CTA
+3. **Features**: Key benefits and features grid
+4. **About**: Trust indicators, stats, and company credibility
+5. **Testimonials**: Social proof and customer reviews
+6. **Pricing**: Clear pricing plans with highlighted recommended option
+7. **FAQ**: Address common objections and questions
+8. **Footer**: Secondary navigation, social links, and legal pages
+
+## Component Guidelines
+
+### Button Component
+- Supports variants: `primary`, `secondary`, `outline`
+- Supports sizes: `sm`, `md`, `lg`
+- Default variant is `primary`, default size is `md`
+- Maintains consistent styling across all usage
+
+### Section Components
+- Each section has a unique `id` for navigation anchoring
+- Consistent padding: `py-20 px-4 sm:px-6 lg:px-8`
+- Max width container: `max-w-7xl mx-auto`
+- Alternating background colors for visual separation
+
+### Navigation
+- Smooth scrolling between sections using `scrollIntoView({behavior: 'smooth'})`
+- Mobile-responsive hamburger menu
+- Sticky header with shadow on scroll
+
+## Conversion Optimization Principles
+
+### Design Decisions
+1. **Clear Hierarchy**: Strong visual hierarchy with proper heading structure
+2. **Contrasting CTAs**: High-contrast buttons that stand out
+3. **Trust Signals**: Include testimonials, stats, and security badges
+4. **Social Proof**: Customer logos, review counts, and ratings
+5. **Urgency/Scarcity**: Limited-time offers or trial periods
+6. **Mobile Optimization**: Ensure excellent mobile experience
+
+### Content Strategy
+- **Benefit-Focused**: Emphasize benefits over features
+- **Clear Value Proposition**: Immediately communicate unique value
+- **Action-Oriented Language**: Use strong, action-oriented CTAs
+- **Address Objections**: Use FAQ to handle common concerns
+- **Multiple CTAs**: Provide multiple conversion opportunities
+
+## Development Guidelines
+
+### Code Quality
+1. **Consistent Formatting**: Use consistent indentation and formatting
+2. **Meaningful Names**: Use descriptive variable and function names
+3. **Single Responsibility**: Each component should have a single, clear purpose
+4. **DRY Principle**: Avoid code duplication, create reusable components
+5. **Performance**: Optimize for fast loading and smooth interactions
+
+### TypeScript Standards
+- Use strict TypeScript configuration
+- Define proper interfaces for complex objects
+- Avoid `any` type usage
+- Use union types for component variants
+
+## Customization Guidelines
+
+### Content Modification
+- Maintain the proven section structure
+- Keep conversion-focused copy principles
+- Preserve trust indicators and social proof elements
+- Maintain mobile-responsive design
+
+### Technical Extensions
+- New sections should follow existing patterns
+- Maintain consistent spacing and typography
+- Use Lucide icons for new iconography needs
+- Follow established component architecture
+
+## Performance Considerations
+- Lazy loading for images when implemented
+- Optimize bundle size with proper imports
+- Use Vite's built-in optimizations
+- Minimize layout shifts with proper sizing
+- Fast loading critical above-the-fold content
+
+This project serves as a production-ready foundation for sales landing pages, emphasizing conversion optimization, modern development practices, and maintainable code architecture.
